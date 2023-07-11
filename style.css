@@ -1,0 +1,261 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+h1 {
+    font-size: 50px;
+}
+p{
+    align-items: justify;
+}
+/* srist section start */
+.first-section {
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+    height: 600px;
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+    padding: 100%;
+}
+.btn{
+    padding: 20px 32px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E55473;
+    color: white;
+
+}
+.top-img{
+    height: 500px;
+}
+/* frist section end */
+
+/* secound section start */
+.featured-flowre{
+    text-align: center;
+}
+.img-flex{
+    display: flex;
+    justify-content: center;
+
+}
+.img-1{
+    background-color: #A72162;
+    padding: 20px;
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    margin: 20px;
+    margin-bottom: 0px;
+    height: 400px;
+    width: 300px;
+}
+.img-2{
+    background-color: #0597A0;
+    padding: 20px;
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    margin: 20px;
+    margin-bottom: 0px;
+    height: 400px;
+    width: 300px;
+}
+.img-3{
+    background-color: gray;
+    padding: 20px;
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    margin: 20px;
+    margin-bottom: 0px;
+    height: 400px;
+    width: 300px;
+}
+.link-1{
+    text-decoration: none;
+    justify-content: center;
+    margin-left: 120px;
+}
+.link-2{
+    text-decoration: none;
+    justify-content: center;
+    margin-left: 120px;
+}
+.link-3{
+    text-decoration: none;
+    justify-content: center;
+    margin-left: 120px;
+}
+/*secound section end*/
+
+/* external section starded */
+.opptional-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    border: 1px solid black;
+    background-color: rgb(219, 199, 199);
+    margin-left: 11%;
+    margin-right: 11%;
+}
+.opptional-div-1{
+    padding: 20px;
+}
+.opptional-div-2{
+    padding: 20px;
+}
+.opptional-div-3{
+    padding: 20px;
+}
+.opptional-img-1{
+    justify-content: center;
+    margin-left: 100px;
+}
+.opptional-img-2{
+    justify-content: center;
+    margin-left: 100px;
+}
+.opptional-img-3{
+    justify-content: center;
+    margin-left: 100px;
+}
+/* external section end */
+
+/* third section start */
+.third-section{
+    display: flex;
+    background-color: rgb(253, 249, 244);
+    height: 550px;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+    text-align: center;
+    margin-top: 50px;
+}
+.off-span{
+    color: crimson;
+}
+.btn{
+    padding: 20px 32px;
+    border: none;
+    background-color:  #E55473;;
+    color: white;
+    border-radius: 5px;
+}
+.top-img{
+    height: 350px;
+    width: 300px;
+    margin-top: 30px;
+}
+/* third section end */
+
+/* four section start */
+.instagram{
+    text-align: center;
+}
+.instagram-img{
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.instagram-img-1{
+    padding: 20px;
+    height: 380px;
+    padding-top: 20px;
+}
+.instagram-img-2{
+    padding: 20px;
+    height: 380px;
+    padding-top: 20px;
+}
+.instagram-img-3{
+    padding: 20px;
+    height: 380px;
+    padding-top: 20px;
+}
+.instagram-img-4{
+    padding: 20px;
+    height: 380px;
+    padding-top: 20px;
+}
+/* four section end */
+
+/* five updates section start */
+.updates-container{
+    text-align: center;
+}
+.shopping{
+    text-align: center;
+    padding-top: 100px;
+}
+.updates-form{
+    padding-left: 20%;
+    padding-right: 20%;
+    background-image: url('Flower\ Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.updates-container form{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.email-input{
+    margin-top: 40px;
+    height: 30px;
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    background-color: #bbb8b5;
+    color: #3a3838;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.subscribe-btn{
+    background-color: #e00833;
+    border-radius: 2px;
+    border: none;
+    font-weight: 600;
+    height: 32px;
+    width: 100px;
+    margin-left: -30px;
+}
+.subscribe-btn a{
+    text-decoration: none;
+    color: #FFF;
+}
+/* five updates section end */
+
+
+/* footer section start  */
+footer{
+    background-color: black;
+    height: 140px;
+    text-align: center;
+    margin-top: 70px;
+}
+span{
+    color: crimson;
+}
+h3{
+    color: white;
+}
+footer p{
+    font-size: 13px;
+    color: white;
+}
+small{
+    color: white;
+}
+.be-humble{
+    color: crimson;
+}
+/* footer section end  */
